@@ -4,6 +4,10 @@ using PizzaStore.Models;
 
 var builder = WebApplication.CreateBuilder(args);
 
+
+
+// En liten kommentar för pushtest.
+
 var connectionString = "Server=https.localhost;Database=PizzaDB;User Id=Hugo;Password=hejhej;TrustServerCertificate=True"; //builder.Configuration.GetConnectionString("Pizzas") ?? "Data Source=Pizzas.db";
 
 builder.Services.AddEndpointsApiExplorer();
